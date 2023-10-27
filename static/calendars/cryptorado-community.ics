@@ -1,0 +1,739 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Meetup//RemoteApi//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-ORIGINAL-URL:https://www.meetup.com/cryptorado/events/ical/
+X-WR-CALNAME:Events - Cryptorado: Decetralized Technology Community
+BEGIN:VTIMEZONE
+TZID:America/Denver
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Denver
+X-LIC-LOCATION:America/Denver
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+TZNAME:MDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+TZNAME:MST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20231029T090000
+DTEND;TZID=America/Denver:20231029T120000
+STATUS:CONFIRMED
+SUMMARY:🌄 Cryptorado Adventure -- Weekly Red Rocks Hike! 🥾
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nSunday\, Octob
+ er 29 at 9:00 AM\n\n**Embark on an Adventure with Cryptorado! 🏞️** Vent
+ ure out with the dynamic (https://discord.gg/q3Ec9yUb)for a thrilling we
+ ekly hike! This week\, we're...\n\nhttps://www.meetup.com/cryptorado/eve
+ nts/296640125/
+CLASS:PUBLIC
+CREATED:20230905T163914Z
+GEO:39.75;-104.98
+LOCATION:Mount Morrison South Ridge Trailhead (\, Evergreen\, CO 80401)
+URL:https://www.meetup.com/cryptorado/events/296640125/
+LAST-MODIFIED:20230905T163914Z
+UID:event_cflwgtyfcnbmc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20231102T163000
+DTEND;TZID=America/Denver:20231102T193000
+STATUS:CONFIRMED
+SUMMARY:Cryptorado Community Gathering
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nThursday\, Nov
+ ember 2 at 4:30 PM\n\nThis bi-weekly\, community-driven meetup is a gath
+ ering on all things *Web3*\, *Crypto*\, and *Blockchain*. We enjoy divin
+ g deep and discussing the most ...\n\nhttps://www.meetup.com/cryptorado/
+ events/296742595/
+CLASS:PUBLIC
+CREATED:20230518T185448Z
+GEO:39.75;-104.98
+LOCATION:Seedstock Brewery (3610 W Colfax Ave\, Denver\, CO 80204)
+URL:https://www.meetup.com/cryptorado/events/296742595/
+LAST-MODIFIED:20230518T185448Z
+UID:event_rctxdtyfcpbdb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20231103T090000
+DTEND;TZID=America/Denver:20231103T170000
+STATUS:CONFIRMED
+SUMMARY:FREE Coworking for the Open Source Community 
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nFriday\, Novem
+ ber 3 at 9:00 AM\n\nWe are please to invite you to the Cryptorado commun
+ ity of developers\, designers\, creatives\, dreamers\, BUIDLers\, and bu
+ siness leaders for FREE coworki...\n\nhttps://www.meetup.com/cryptorado/
+ events/296760409/
+CLASS:PUBLIC
+CREATED:20220914T012108Z
+GEO:39.75;-104.98
+LOCATION:Enterprise Coworking RiNo (3000 Lawrence St\, Denver\, CO 80205)
+ 
+URL:https://www.meetup.com/cryptorado/events/296760409/
+LAST-MODIFIED:20220914T012108Z
+UID:event_wmtkxsyfcpbfb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20231105T090000
+DTEND;TZID=America/Denver:20231105T120000
+STATUS:CONFIRMED
+SUMMARY:🌄 Cryptorado Adventure -- Weekly Red Rocks Hike! 🥾
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nSunday\, Novem
+ ber 5 at 9:00 AM\n\n**Embark on an Adventure with Cryptorado! 🏞️** Vent
+ ure out with the dynamic (https://discord.gg/q3Ec9yUb)for a thrilling we
+ ekly hike! This week\, we're...\n\nhttps://www.meetup.com/cryptorado/eve
+ nts/296773804/
+CLASS:PUBLIC
+CREATED:20230905T163914Z
+GEO:39.75;-104.98
+LOCATION:Mount Morrison South Ridge Trailhead (\, Evergreen\, CO 80401)
+URL:https://www.meetup.com/cryptorado/events/296773804/
+LAST-MODIFIED:20230905T163914Z
+UID:event_cflwgtyfcpbhb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20231109T183000
+DTEND;TZID=America/Denver:20231109T200000
+STATUS:CONFIRMED
+SUMMARY:Happy Hour in #NoDe (North Denver) at Satire Brewing
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nThursday\, Nov
+ ember 9 at 6:30 PM\n\nNorthern Denver/Broomfield/Boulder/Thornton Crypto
+ rado Crew assembles 😀 Satire Brewing Company (close to 120th & I-25)121
+ 36 Grant Cir unit b\, Thornton...\n\nhttps://www.meetup.com/cryptorado/e
+ vents/296869087/
+CLASS:PUBLIC
+CREATED:20230915T155950Z
+GEO:39.75;-104.98
+LOCATION:Satire Brewing Company (12136 Grant Cir unit b\, Thornton\, CO 8
+ 0241)
+URL:https://www.meetup.com/cryptorado/events/296869087/
+LAST-MODIFIED:20230915T155951Z
+UID:event_llbchtyfcpbmb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20231110T090000
+DTEND;TZID=America/Denver:20231110T170000
+STATUS:CONFIRMED
+SUMMARY:FREE Coworking for the Open Source Community 
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nFriday\, Novem
+ ber 10 at 9:00 AM\n\nWe are please to invite you to the Cryptorado commu
+ nity of developers\, designers\, creatives\, dreamers\, BUIDLers\, and b
+ usiness leaders for FREE coworki...\n\nhttps://www.meetup.com/cryptorado
+ /events/296876022/
+CLASS:PUBLIC
+CREATED:20220914T012108Z
+GEO:39.75;-104.98
+LOCATION:Enterprise Coworking RiNo (3000 Lawrence St\, Denver\, CO 80205)
+ 
+URL:https://www.meetup.com/cryptorado/events/296876022/
+LAST-MODIFIED:20220914T012108Z
+UID:event_wmtkxsyfcpbnb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20231112T090000
+DTEND;TZID=America/Denver:20231112T120000
+STATUS:CONFIRMED
+SUMMARY:🌄 Cryptorado Adventure -- Weekly Red Rocks Hike! 🥾
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nSunday\, Novem
+ ber 12 at 9:00 AM\n\n**Embark on an Adventure with Cryptorado! 🏞️** Ven
+ ture out with the dynamic (https://discord.gg/q3Ec9yUb)for a thrilling w
+ eekly hike! This week\, we're...\n\nhttps://www.meetup.com/cryptorado/ev
+ ents/296912329/
+CLASS:PUBLIC
+CREATED:20230905T163914Z
+GEO:39.75;-104.98
+LOCATION:Mount Morrison South Ridge Trailhead (\, Evergreen\, CO 80401)
+URL:https://www.meetup.com/cryptorado/events/296912329/
+LAST-MODIFIED:20230905T163914Z
+UID:event_cflwgtyfcpbqb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20231116T163000
+DTEND;TZID=America/Denver:20231116T193000
+STATUS:CONFIRMED
+SUMMARY:Cryptorado Community Gathering
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nThursday\, Nov
+ ember 16 at 4:30 PM\n\nThis bi-weekly\, community-driven meetup is a gat
+ hering on all things *Web3*\, *Crypto*\, and *Blockchain*. We enjoy divi
+ ng deep and discussing the most ...\n\nhttps://www.meetup.com/cryptorado
+ /events/rctxdtyfcpbvb/
+CLASS:PUBLIC
+CREATED:20230518T185448Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/rctxdtyfcpbvb/
+LAST-MODIFIED:20230518T185448Z
+UID:event_rctxdtyfcpbvb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20231117T090000
+DTEND;TZID=America/Denver:20231117T170000
+STATUS:CONFIRMED
+SUMMARY:FREE Coworking for the Open Source Community 
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nFriday\, Novem
+ ber 17 at 9:00 AM\n\nWe are please to invite you to the Cryptorado commu
+ nity of developers\, designers\, creatives\, dreamers\, BUIDLers\, and b
+ usiness leaders for FREE coworki...\n\nhttps://www.meetup.com/cryptorado
+ /events/wmtkxsyfcpbwb/
+CLASS:PUBLIC
+CREATED:20220914T012108Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/wmtkxsyfcpbwb/
+LAST-MODIFIED:20220914T012108Z
+UID:event_wmtkxsyfcpbwb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20231119T090000
+DTEND;TZID=America/Denver:20231119T120000
+STATUS:CONFIRMED
+SUMMARY:🌄 Cryptorado Adventure -- Weekly Red Rocks Hike! 🥾
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nSunday\, Novem
+ ber 19 at 9:00 AM\n\n**Embark on an Adventure with Cryptorado! 🏞️** Ven
+ ture out with the dynamic (https://discord.gg/q3Ec9yUb)for a thrilling w
+ eekly hike! This week\, we're...\n\nhttps://www.meetup.com/cryptorado/ev
+ ents/cflwgtyfcpbzb/
+CLASS:PUBLIC
+CREATED:20230905T163914Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/cflwgtyfcpbzb/
+LAST-MODIFIED:20230905T163914Z
+UID:event_cflwgtyfcpbzb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20231123T183000
+DTEND;TZID=America/Denver:20231123T200000
+STATUS:CONFIRMED
+SUMMARY:Happy Hour in #NoDe (North Denver) at Satire Brewing
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nThursday\, Nov
+ ember 23 at 6:30 PM\n\nNorthern Denver/Broomfield/Boulder/Thornton Crypt
+ orado Crew assembles 😀 Satire Brewing Company (close to 120th & I-25)12
+ 136 Grant Cir unit b\, Thornton...\n\nhttps://www.meetup.com/cryptorado/
+ events/llbchtyfcpbfc/
+CLASS:PUBLIC
+CREATED:20230915T155950Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/llbchtyfcpbfc/
+LAST-MODIFIED:20230915T155951Z
+UID:event_llbchtyfcpbfc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20231124T090000
+DTEND;TZID=America/Denver:20231124T170000
+STATUS:CONFIRMED
+SUMMARY:FREE Coworking for the Open Source Community 
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nFriday\, Novem
+ ber 24 at 9:00 AM\n\nWe are please to invite you to the Cryptorado commu
+ nity of developers\, designers\, creatives\, dreamers\, BUIDLers\, and b
+ usiness leaders for FREE coworki...\n\nhttps://www.meetup.com/cryptorado
+ /events/wmtkxsyfcpbgc/
+CLASS:PUBLIC
+CREATED:20220914T012108Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/wmtkxsyfcpbgc/
+LAST-MODIFIED:20220914T012108Z
+UID:event_wmtkxsyfcpbgc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20231126T090000
+DTEND;TZID=America/Denver:20231126T120000
+STATUS:CONFIRMED
+SUMMARY:🌄 Cryptorado Adventure -- Weekly Red Rocks Hike! 🥾
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nSunday\, Novem
+ ber 26 at 9:00 AM\n\n**Embark on an Adventure with Cryptorado! 🏞️** Ven
+ ture out with the dynamic (https://discord.gg/q3Ec9yUb)for a thrilling w
+ eekly hike! This week\, we're...\n\nhttps://www.meetup.com/cryptorado/ev
+ ents/cflwgtyfcpbjc/
+CLASS:PUBLIC
+CREATED:20230905T163914Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/cflwgtyfcpbjc/
+LAST-MODIFIED:20230905T163914Z
+UID:event_cflwgtyfcpbjc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20231130T163000
+DTEND;TZID=America/Denver:20231130T193000
+STATUS:CONFIRMED
+SUMMARY:Cryptorado Community Gathering
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nThursday\, Nov
+ ember 30 at 4:30 PM\n\nThis bi-weekly\, community-driven meetup is a gat
+ hering on all things *Web3*\, *Crypto*\, and *Blockchain*. We enjoy divi
+ ng deep and discussing the most ...\n\nhttps://www.meetup.com/cryptorado
+ /events/rctxdtyfcpbnc/
+CLASS:PUBLIC
+CREATED:20230518T185448Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/rctxdtyfcpbnc/
+LAST-MODIFIED:20230518T185448Z
+UID:event_rctxdtyfcpbnc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20231201T090000
+DTEND;TZID=America/Denver:20231201T170000
+STATUS:CONFIRMED
+SUMMARY:FREE Coworking for the Open Source Community 
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nFriday\, Decem
+ ber 1 at 9:00 AM\n\nWe are please to invite you to the Cryptorado commun
+ ity of developers\, designers\, creatives\, dreamers\, BUIDLers\, and bu
+ siness leaders for FREE coworki...\n\nhttps://www.meetup.com/cryptorado/
+ events/wmtkxsyfcqbcb/
+CLASS:PUBLIC
+CREATED:20220914T012108Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/wmtkxsyfcqbcb/
+LAST-MODIFIED:20220914T012108Z
+UID:event_wmtkxsyfcqbcb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20231203T090000
+DTEND;TZID=America/Denver:20231203T120000
+STATUS:CONFIRMED
+SUMMARY:🌄 Cryptorado Adventure -- Weekly Red Rocks Hike! 🥾
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nSunday\, Decem
+ ber 3 at 9:00 AM\n\n**Embark on an Adventure with Cryptorado! 🏞️** Vent
+ ure out with the dynamic (https://discord.gg/q3Ec9yUb)for a thrilling we
+ ekly hike! This week\, we're...\n\nhttps://www.meetup.com/cryptorado/eve
+ nts/cflwgtyfcqbfb/
+CLASS:PUBLIC
+CREATED:20230905T163914Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/cflwgtyfcqbfb/
+LAST-MODIFIED:20230905T163914Z
+UID:event_cflwgtyfcqbfb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20231207T183000
+DTEND;TZID=America/Denver:20231207T200000
+STATUS:CONFIRMED
+SUMMARY:Happy Hour in #NoDe (North Denver) at Satire Brewing
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nThursday\, Dec
+ ember 7 at 6:30 PM\n\nNorthern Denver/Broomfield/Boulder/Thornton Crypto
+ rado Crew assembles 😀 Satire Brewing Company (close to 120th & I-25)121
+ 36 Grant Cir unit b\, Thornton...\n\nhttps://www.meetup.com/cryptorado/e
+ vents/llbchtyfcqbkb/
+CLASS:PUBLIC
+CREATED:20230915T155950Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/llbchtyfcqbkb/
+LAST-MODIFIED:20230915T155951Z
+UID:event_llbchtyfcqbkb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20231208T090000
+DTEND;TZID=America/Denver:20231208T170000
+STATUS:CONFIRMED
+SUMMARY:FREE Coworking for the Open Source Community 
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nFriday\, Decem
+ ber 8 at 9:00 AM\n\nWe are please to invite you to the Cryptorado commun
+ ity of developers\, designers\, creatives\, dreamers\, BUIDLers\, and bu
+ siness leaders for FREE coworki...\n\nhttps://www.meetup.com/cryptorado/
+ events/wmtkxsyfcqblb/
+CLASS:PUBLIC
+CREATED:20220914T012108Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/wmtkxsyfcqblb/
+LAST-MODIFIED:20220914T012108Z
+UID:event_wmtkxsyfcqblb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20231210T090000
+DTEND;TZID=America/Denver:20231210T120000
+STATUS:CONFIRMED
+SUMMARY:🌄 Cryptorado Adventure -- Weekly Red Rocks Hike! 🥾
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nSunday\, Decem
+ ber 10 at 9:00 AM\n\n**Embark on an Adventure with Cryptorado! 🏞️** Ven
+ ture out with the dynamic (https://discord.gg/q3Ec9yUb)for a thrilling w
+ eekly hike! This week\, we're...\n\nhttps://www.meetup.com/cryptorado/ev
+ ents/cflwgtyfcqbnb/
+CLASS:PUBLIC
+CREATED:20230905T163914Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/cflwgtyfcqbnb/
+LAST-MODIFIED:20230905T163914Z
+UID:event_cflwgtyfcqbnb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20231214T163000
+DTEND;TZID=America/Denver:20231214T193000
+STATUS:CONFIRMED
+SUMMARY:Cryptorado Community Gathering
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nThursday\, Dec
+ ember 14 at 4:30 PM\n\nThis bi-weekly\, community-driven meetup is a gat
+ hering on all things *Web3*\, *Crypto*\, and *Blockchain*. We enjoy divi
+ ng deep and discussing the most ...\n\nhttps://www.meetup.com/cryptorado
+ /events/rctxdtyfcqbsb/
+CLASS:PUBLIC
+CREATED:20230518T185448Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/rctxdtyfcqbsb/
+LAST-MODIFIED:20230518T185448Z
+UID:event_rctxdtyfcqbsb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20231215T090000
+DTEND;TZID=America/Denver:20231215T170000
+STATUS:CONFIRMED
+SUMMARY:FREE Coworking for the Open Source Community 
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nFriday\, Decem
+ ber 15 at 9:00 AM\n\nWe are please to invite you to the Cryptorado commu
+ nity of developers\, designers\, creatives\, dreamers\, BUIDLers\, and b
+ usiness leaders for FREE coworki...\n\nhttps://www.meetup.com/cryptorado
+ /events/wmtkxsyfcqbtb/
+CLASS:PUBLIC
+CREATED:20220914T012108Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/wmtkxsyfcqbtb/
+LAST-MODIFIED:20220914T012108Z
+UID:event_wmtkxsyfcqbtb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20231217T090000
+DTEND;TZID=America/Denver:20231217T120000
+STATUS:CONFIRMED
+SUMMARY:🌄 Cryptorado Adventure -- Weekly Red Rocks Hike! 🥾
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nSunday\, Decem
+ ber 17 at 9:00 AM\n\n**Embark on an Adventure with Cryptorado! 🏞️** Ven
+ ture out with the dynamic (https://discord.gg/q3Ec9yUb)for a thrilling w
+ eekly hike! This week\, we're...\n\nhttps://www.meetup.com/cryptorado/ev
+ ents/cflwgtyfcqbwb/
+CLASS:PUBLIC
+CREATED:20230905T163914Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/cflwgtyfcqbwb/
+LAST-MODIFIED:20230905T163914Z
+UID:event_cflwgtyfcqbwb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20231221T183000
+DTEND;TZID=America/Denver:20231221T200000
+STATUS:CONFIRMED
+SUMMARY:Happy Hour in #NoDe (North Denver) at Satire Brewing
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nThursday\, Dec
+ ember 21 at 6:30 PM\n\nNorthern Denver/Broomfield/Boulder/Thornton Crypt
+ orado Crew assembles 😀 Satire Brewing Company (close to 120th & I-25)12
+ 136 Grant Cir unit b\, Thornton...\n\nhttps://www.meetup.com/cryptorado/
+ events/llbchtyfcqbcc/
+CLASS:PUBLIC
+CREATED:20230915T155950Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/llbchtyfcqbcc/
+LAST-MODIFIED:20230915T155951Z
+UID:event_llbchtyfcqbcc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20231222T090000
+DTEND;TZID=America/Denver:20231222T170000
+STATUS:CONFIRMED
+SUMMARY:FREE Coworking for the Open Source Community 
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nFriday\, Decem
+ ber 22 at 9:00 AM\n\nWe are please to invite you to the Cryptorado commu
+ nity of developers\, designers\, creatives\, dreamers\, BUIDLers\, and b
+ usiness leaders for FREE coworki...\n\nhttps://www.meetup.com/cryptorado
+ /events/wmtkxsyfcqbdc/
+CLASS:PUBLIC
+CREATED:20220914T012108Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/wmtkxsyfcqbdc/
+LAST-MODIFIED:20220914T012108Z
+UID:event_wmtkxsyfcqbdc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20231224T090000
+DTEND;TZID=America/Denver:20231224T120000
+STATUS:CONFIRMED
+SUMMARY:🌄 Cryptorado Adventure -- Weekly Red Rocks Hike! 🥾
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nSunday\, Decem
+ ber 24 at 9:00 AM\n\n**Embark on an Adventure with Cryptorado! 🏞️** Ven
+ ture out with the dynamic (https://discord.gg/q3Ec9yUb)for a thrilling w
+ eekly hike! This week\, we're...\n\nhttps://www.meetup.com/cryptorado/ev
+ ents/cflwgtyfcqbgc/
+CLASS:PUBLIC
+CREATED:20230905T163914Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/cflwgtyfcqbgc/
+LAST-MODIFIED:20230905T163914Z
+UID:event_cflwgtyfcqbgc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20231228T163000
+DTEND;TZID=America/Denver:20231228T193000
+STATUS:CONFIRMED
+SUMMARY:Cryptorado Community Gathering
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nThursday\, Dec
+ ember 28 at 4:30 PM\n\nThis bi-weekly\, community-driven meetup is a gat
+ hering on all things *Web3*\, *Crypto*\, and *Blockchain*. We enjoy divi
+ ng deep and discussing the most ...\n\nhttps://www.meetup.com/cryptorado
+ /events/rctxdtyfcqblc/
+CLASS:PUBLIC
+CREATED:20230518T185448Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/rctxdtyfcqblc/
+LAST-MODIFIED:20230518T185448Z
+UID:event_rctxdtyfcqblc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20231229T090000
+DTEND;TZID=America/Denver:20231229T170000
+STATUS:CONFIRMED
+SUMMARY:FREE Coworking for the Open Source Community 
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nFriday\, Decem
+ ber 29 at 9:00 AM\n\nWe are please to invite you to the Cryptorado commu
+ nity of developers\, designers\, creatives\, dreamers\, BUIDLers\, and b
+ usiness leaders for FREE coworki...\n\nhttps://www.meetup.com/cryptorado
+ /events/wmtkxsyfcqbmc/
+CLASS:PUBLIC
+CREATED:20220914T012108Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/wmtkxsyfcqbmc/
+LAST-MODIFIED:20220914T012108Z
+UID:event_wmtkxsyfcqbmc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20231231T090000
+DTEND;TZID=America/Denver:20231231T120000
+STATUS:CONFIRMED
+SUMMARY:🌄 Cryptorado Adventure -- Weekly Red Rocks Hike! 🥾
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nSunday\, Decem
+ ber 31 at 9:00 AM\n\n**Embark on an Adventure with Cryptorado! 🏞️** Ven
+ ture out with the dynamic (https://discord.gg/q3Ec9yUb)for a thrilling w
+ eekly hike! This week\, we're...\n\nhttps://www.meetup.com/cryptorado/ev
+ ents/cflwgtyfcqbpc/
+CLASS:PUBLIC
+CREATED:20230905T163914Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/cflwgtyfcqbpc/
+LAST-MODIFIED:20230905T163914Z
+UID:event_cflwgtyfcqbpc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20240104T183000
+DTEND;TZID=America/Denver:20240104T200000
+STATUS:CONFIRMED
+SUMMARY:Happy Hour in #NoDe (North Denver) at Satire Brewing
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nThursday\, Jan
+ uary 4 at 6:30 PM\n\nNorthern Denver/Broomfield/Boulder/Thornton Cryptor
+ ado Crew assembles 😀 Satire Brewing Company (close to 120th & I-25)1213
+ 6 Grant Cir unit b\, Thornton...\n\nhttps://www.meetup.com/cryptorado/ev
+ ents/llbchtygccbgb/
+CLASS:PUBLIC
+CREATED:20230915T155950Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/llbchtygccbgb/
+LAST-MODIFIED:20230915T155951Z
+UID:event_llbchtygccbgb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20240111T163000
+DTEND;TZID=America/Denver:20240111T193000
+STATUS:CONFIRMED
+SUMMARY:Cryptorado Community Gathering
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nThursday\, Jan
+ uary 11 at 4:30 PM\n\nThis bi-weekly\, community-driven meetup is a gath
+ ering on all things *Web3*\, *Crypto*\, and *Blockchain*. We enjoy divin
+ g deep and discussing the most ...\n\nhttps://www.meetup.com/cryptorado/
+ events/rctxdtygccbpb/
+CLASS:PUBLIC
+CREATED:20230518T185448Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/rctxdtygccbpb/
+LAST-MODIFIED:20230518T185448Z
+UID:event_rctxdtygccbpb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20240118T183000
+DTEND;TZID=America/Denver:20240118T200000
+STATUS:CONFIRMED
+SUMMARY:Happy Hour in #NoDe (North Denver) at Satire Brewing
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nThursday\, Jan
+ uary 18 at 6:30 PM\n\nNorthern Denver/Broomfield/Boulder/Thornton Crypto
+ rado Crew assembles 😀 Satire Brewing Company (close to 120th & I-25)121
+ 36 Grant Cir unit b\, Thornton...\n\nhttps://www.meetup.com/cryptorado/e
+ vents/llbchtygccbxb/
+CLASS:PUBLIC
+CREATED:20230915T155950Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/llbchtygccbxb/
+LAST-MODIFIED:20230915T155951Z
+UID:event_llbchtygccbxb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20240125T163000
+DTEND;TZID=America/Denver:20240125T193000
+STATUS:CONFIRMED
+SUMMARY:Cryptorado Community Gathering
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nThursday\, Jan
+ uary 25 at 4:30 PM\n\nThis bi-weekly\, community-driven meetup is a gath
+ ering on all things *Web3*\, *Crypto*\, and *Blockchain*. We enjoy divin
+ g deep and discussing the most ...\n\nhttps://www.meetup.com/cryptorado/
+ events/rctxdtygccbhc/
+CLASS:PUBLIC
+CREATED:20230518T185448Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/rctxdtygccbhc/
+LAST-MODIFIED:20230518T185448Z
+UID:event_rctxdtygccbhc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20240201T183000
+DTEND;TZID=America/Denver:20240201T200000
+STATUS:CONFIRMED
+SUMMARY:Happy Hour in #NoDe (North Denver) at Satire Brewing
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nThursday\, Feb
+ ruary 1 at 6:30 PM\n\nNorthern Denver/Broomfield/Boulder/Thornton Crypto
+ rado Crew assembles 😀 Satire Brewing Company (close to 120th & I-25)121
+ 36 Grant Cir unit b\, Thornton...\n\nhttps://www.meetup.com/cryptorado/e
+ vents/llbchtygcdbcb/
+CLASS:PUBLIC
+CREATED:20230915T155950Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/llbchtygcdbcb/
+LAST-MODIFIED:20230915T155951Z
+UID:event_llbchtygcdbcb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20240208T163000
+DTEND;TZID=America/Denver:20240208T193000
+STATUS:CONFIRMED
+SUMMARY:Cryptorado Community Gathering
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nThursday\, Feb
+ ruary 8 at 4:30 PM\n\nThis bi-weekly\, community-driven meetup is a gath
+ ering on all things *Web3*\, *Crypto*\, and *Blockchain*. We enjoy divin
+ g deep and discussing the most ...\n\nhttps://www.meetup.com/cryptorado/
+ events/rctxdtygcdblb/
+CLASS:PUBLIC
+CREATED:20230518T185448Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/rctxdtygcdblb/
+LAST-MODIFIED:20230518T185448Z
+UID:event_rctxdtygcdblb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20240215T183000
+DTEND;TZID=America/Denver:20240215T200000
+STATUS:CONFIRMED
+SUMMARY:Happy Hour in #NoDe (North Denver) at Satire Brewing
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nThursday\, Feb
+ ruary 15 at 6:30 PM\n\nNorthern Denver/Broomfield/Boulder/Thornton Crypt
+ orado Crew assembles 😀 Satire Brewing Company (close to 120th & I-25)12
+ 136 Grant Cir unit b\, Thornton...\n\nhttps://www.meetup.com/cryptorado/
+ events/llbchtygcdbtb/
+CLASS:PUBLIC
+CREATED:20230915T155950Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/llbchtygcdbtb/
+LAST-MODIFIED:20230915T155951Z
+UID:event_llbchtygcdbtb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20240222T163000
+DTEND;TZID=America/Denver:20240222T193000
+STATUS:CONFIRMED
+SUMMARY:Cryptorado Community Gathering
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nThursday\, Feb
+ ruary 22 at 4:30 PM\n\nThis bi-weekly\, community-driven meetup is a gat
+ hering on all things *Web3*\, *Crypto*\, and *Blockchain*. We enjoy divi
+ ng deep and discussing the most ...\n\nhttps://www.meetup.com/cryptorado
+ /events/rctxdtygcdbdc/
+CLASS:PUBLIC
+CREATED:20230518T185448Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/rctxdtygcdbdc/
+LAST-MODIFIED:20230518T185448Z
+UID:event_rctxdtygcdbdc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20240229T183000
+DTEND;TZID=America/Denver:20240229T200000
+STATUS:CONFIRMED
+SUMMARY:Happy Hour in #NoDe (North Denver) at Satire Brewing
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nThursday\, Feb
+ ruary 29 at 6:30 PM\n\nNorthern Denver/Broomfield/Boulder/Thornton Crypt
+ orado Crew assembles 😀 Satire Brewing Company (close to 120th & I-25)12
+ 136 Grant Cir unit b\, Thornton...\n\nhttps://www.meetup.com/cryptorado/
+ events/llbchtygcdbmc/
+CLASS:PUBLIC
+CREATED:20230915T155950Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/llbchtygcdbmc/
+LAST-MODIFIED:20230915T155951Z
+UID:event_llbchtygcdbmc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20240307T163000
+DTEND;TZID=America/Denver:20240307T193000
+STATUS:CONFIRMED
+SUMMARY:Cryptorado Community Gathering
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nThursday\, Mar
+ ch 7 at 4:30 PM\n\nThis bi-weekly\, community-driven meetup is a gatheri
+ ng on all things *Web3*\, *Crypto*\, and *Blockchain*. We enjoy diving d
+ eep and discussing the most ...\n\nhttps://www.meetup.com/cryptorado/eve
+ nts/rctxdtygcfbkb/
+CLASS:PUBLIC
+CREATED:20230518T185448Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/rctxdtygcfbkb/
+LAST-MODIFIED:20230518T185448Z
+UID:event_rctxdtygcfbkb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231027T202325Z
+DTSTART;TZID=America/Denver:20240314T183000
+DTEND;TZID=America/Denver:20240314T200000
+STATUS:CONFIRMED
+SUMMARY:Happy Hour in #NoDe (North Denver) at Satire Brewing
+DESCRIPTION:Cryptorado: Decetralized Technology Community\nThursday\, Mar
+ ch 14 at 6:30 PM\n\nNorthern Denver/Broomfield/Boulder/Thornton Cryptora
+ do Crew assembles 😀 Satire Brewing Company (close to 120th & I-25)12136
+  Grant Cir unit b\, Thornton...\n\nhttps://www.meetup.com/cryptorado/eve
+ nts/llbchtygcfbsb/
+CLASS:PUBLIC
+CREATED:20230915T155950Z
+GEO:39.75;-104.98
+URL:https://www.meetup.com/cryptorado/events/llbchtygcfbsb/
+LAST-MODIFIED:20230915T155951Z
+UID:event_llbchtygcfbsb@meetup.com
+END:VEVENT
+END:VCALENDAR
