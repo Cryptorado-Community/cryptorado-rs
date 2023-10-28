@@ -31,5 +31,5 @@ tower-http = { version = "0.4.0", features = ["fs"] }
 
 [features]
 default = ["shuttle"]
-shuttle = ["shuttle-runtime", "shuttle-axum"]
+shuttle = ["dep:shuttle-runtime", "dep:shuttle-axum"]
 local = ["dep:anyhow"]

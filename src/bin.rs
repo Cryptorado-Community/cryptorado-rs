@@ -2,11 +2,11 @@
 use std::net::SocketAddr;
 
 #[cfg(feature = "local")]
-use axum;
-
-#[cfg(feature = "local")]
 use anyhow::Result;
 
+/// Local main entrypoint.
+///
+/// See also `main` in `lib.rs` - these will need to be manuall kept doing the same thing it seems 😭.
 #[cfg(feature = "local")]
 #[tokio::main]
 async fn main() -> Result<()> {
@@ -20,10 +20,8 @@ async fn main() -> Result<()> {
 }
 
 /// Dummy main, should never be encountered!
-///
-/// See also `main` in `lib.rs` - these will need to be manuall kept doing the same thing it seems 😭.
 #[cfg(not(feature = "local"))]
 fn main() {
     // dummy main function if shuttle is used
-    panic!("This main() should never run! See lib.rs for the shuttle main()")
+    panic!("This main() should never run! Maybe you wanted\n\ncargo run --features local\n\nSee lib.rs for the shuttle main()")
 }
