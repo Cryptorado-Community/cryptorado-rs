@@ -354,9 +354,10 @@ dependencies = [
 ]
 
 [[package]]
-name = "cryptorado"
+name = "cryptorado-rs"
 version = "0.1.0"
 dependencies = [
+ "anyhow",
  "axum",
  "shuttle-axum",
  "shuttle-runtime",

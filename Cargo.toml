@@ -1,12 +1,35 @@
 [package]
-name = "cryptorado"
+name = "cryptorado-rs"
 version = "0.1.0"
 edition = "2021"
+homepage = "https://cryptorado.org"
+keywords = [
+  "calendar",
+  "shuttle.rs",
+  "cryptorado",
+  "static site",
+]
 publish = false
+repository = "https://github.com/Cryptorado-Community/cryptorado-rs"
+description = "Home of the Cryptorado Community"
+
+exclude = [
+  "static/*",
+]
+
+[[bin]]
+name = "cryptorado-rs"
+path = "src/bin.rs"
 
 [dependencies]
-axum = "0.6.18"
-shuttle-axum = "0.30.0"
-shuttle-runtime = "0.30.0"
-tokio = "1.28.2"
+anyhow = { version = "1.0.75", optional = true }
+axum = "0.6.20"
+shuttle-axum = { version = "0.30.1", optional = true }
+shuttle-runtime = { version = "0.30.1", optional = true }
+tokio = "1.33.0"
 tower-http = { version = "0.4.0", features = ["fs"] }
+
+[features]
+default = ["shuttle"]
+shuttle = ["dep:shuttle-runtime", "dep:shuttle-axum"]
+local = ["dep:anyhow"]
