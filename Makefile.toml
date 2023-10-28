@@ -97,12 +97,21 @@ alias = "serve"
 description = "Start a local server, not rebuilding on changes"
 category = "Serve"
 script = "cargo run --features local"
+
 # -----------------------------------------------------------------------------
-# Deploying
+# Shuttle
+
+[tasks.sd]
+alias = "shuttle-dev"
+
+[tasks.shuttle-dev]
+description = "Start a local shuttle server"
+category = "Shuttle"
+script = "cargo shuttle run"
 
 [tasks.deploy]
 description = "Deploy to Shuttle (NOTE: you need to be the owner of the project in Shuttle.toml!)"
-category = "Deploy"
+category = "Shuttle"
 script = "cargo shuttle deploy"
 
 # -----------------------------------------------------------------------------
@@ -127,13 +136,11 @@ alias = "all-links"
 [tasks.all-links]
 category = "Checks"
 description = "Check included links for all markup (.md|.html) files."
-# FIXME .mlc.toml config not working... https://github.com/becheran/mlc/issues/78
-script = "mlc static/"
+script = "mlc static"
 
 [tasks.links-for]
 category = "Checks"
 description = "Check links for specific file(s). Example: `makers links-for ./content/contribute/**/*.md`"
-# FIXME .mlc.toml config not working... https://github.com/becheran/mlc/issues/78
 script = "mlc ${@}"
 
 [tasks.f]
