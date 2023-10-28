@@ -12,7 +12,5 @@ pub fn get_router() -> Router {
 #[cfg(feature = "shuttle")]
 #[shuttle_runtime::main]
 async fn axum() -> shuttle_axum::ShuttleAxum {
-    let router = Router::new().nest_service("/", ServeDir::new("static"));
-
-    Ok(router.into())
+    Ok(get_router().into())
 }
