@@ -1,0 +1,172 @@
+# Make using this repo easy with https://github.com/sagiegurari/cargo-make#installation
+#
+# See all insluded task with:
+# makers --list-all-steps
+
+[tasks.default]
+alias = "serve"
+dependencies = ["check-install"]
+
+[config]
+# Catch errors and report to try and help user
+on_error_task = "catch-error"
+# Skip loading of all core tasks which saves up a bit on toml parsing and task creation
+# Also makse minimal listing of included tasks: https://github.com/sagiegurari/cargo-make#disabling-predefined-tasksflows
+skip_core_tasks = true
+# Skips loading Git related environment variables
+skip_git_env_info = true
+# Skips loading rust related environment variables
+skip_rust_env_info = true
+# Skips loading the current crate related environment variables
+skip_crate_env_info = true
+
+# -----------------------------------------------------------------------------
+# Installation
+
+[tasks.i]
+alias = "install"
+
+[tasks.id]
+alias = "install-dev"
+
+[tasks.ia]
+category = "Install"
+dependencies = ["install", "install-dev"]
+
+[tasks.install]
+description = "Install dependencies for deploying this service."
+category = "Install"
+dependencies = ["install-shuttle"]
+
+[tasks.install-dev]
+description = "Install dependencies for deploying this service, and develper tooling."
+category = "Install"
+dependencies = ["install", "install-linkcheck", "install-formatter", "install-watch"]
+
+[tasks.install-shuttle]
+description = "Install shuttle."
+category = "Install"
+script = '''
+if ! $(echo "type cargo-shuttle" | sh > /dev/null ); then
+    echo "🚀 Installing https://shuttle.rs ..."
+		cargo install --locked cargo-shuttle
+fi
+echo "💽 Shuttle installed."
+'''
+
+[tasks.install-linkcheck]
+description = "Install markup link checker (mlc)."
+category = "Install"
+script = '''
+if ! $(echo "type mlc" | sh > /dev/null ); then
+    echo "🕵 Installing link checker (mlc)..."
+		cargo install --locked mlc
+fi
+echo "💽 mlc installed."
+'''
+
+[tasks.install-formatter]
+description = "Install formatter (dprint)."
+category = "Install"
+script = '''
+if ! $(echo "type dprint" | sh > /dev/null ); then
+    echo "🕵 Installing formatter (dprint)..."
+		cargo install --locked dprint
+fi
+echo "💽 dprint installed."
+'''
+
+[tasks.install-watch]
+description = "Install watching mode for cargo (cargo-watch)."
+category = "Install"
+script = '''
+if ! $(echo "type dprint" | sh > /dev/null ); then
+    echo "🕵 Installing cargo watch ..."
+		cargo install --locked cargo-watch
+fi
+echo "💽 cargo watch installed."
+'''
+
+# -----------------------------------------------------------------------------
+# Serving
+
+[tasks.s]
+alias = "serve"
+
+[tasks.serve]
+description = "Start a local server, not rebuilding on changes"
+category = "Serve"
+script = "cargo run --features local"
+# -----------------------------------------------------------------------------
+# Deploying
+
+[tasks.deploy]
+description = "Deploy to Shuttle (NOTE: you need to be the owner of the project in Shuttle.toml!)"
+category = "Deploy"
+script = "cargo shuttle deploy"
+
+# -----------------------------------------------------------------------------
+# Dev tools for style, convention, and formatting
+
+[tasks.dev]
+alias = "develop"
+
+[tasks.develop]
+description = "Start a local server, watching for all changes"
+category = "Develop"
+script = "cargo watch -x 'run --features local'"
+
+[tasks.clean]
+description = "Clean the build files"
+category = "Clean"
+script = "cargo clean"
+
+[tasks.l]
+alias = "all-links"
+
+[tasks.all-links]
+category = "Checks"
+description = "Check included links for all markup (.md|.html) files."
+# FIXME .mlc.toml config not working... https://github.com/becheran/mlc/issues/78
+script = "mlc static/"
+
+[tasks.links-for]
+category = "Checks"
+description = "Check links for specific file(s). Example: `makers links-for ./content/contribute/**/*.md`"
+# FIXME .mlc.toml config not working... https://github.com/becheran/mlc/issues/78
+script = "mlc ${@}"
+
+[tasks.f]
+alias = "fmt"
+
+[tasks.fmt]
+category = "Format"
+description = "Format everything."
+script = "dprint fmt"
+
+[tasks.catch-error]
+description = "Check and hint at solutions to common errors."
+category = "Tools"
+script = '''
+if ! $(echo "type cargo-shuttle" | sh > /dev/null ); then
+    echo -e "❌ You may need to install the tooling. Run:\n\nmakers install\n"
+    exit 127
+fi
+
+if ! $(echo "type cargo-watch" | sh > /dev/null ); then
+    echo -e "❌ You may need to install the dev tooling. Run:\n\nmakers install-dev\n"
+    exit 127
+fi
+
+if ! $(echo "type mlc" | sh > /dev/null ); then
+    echo -e "❌ You may need to install the dev tooling. Run:\n\nmakers install-dev\n"
+    exit 127
+fi
+
+if ! $(echo "type dprint" | sh > /dev/null ); then
+    echo -e "❌ You may need to install the dev tooling. Run:\n\nmakers install-dev\n"
+    exit 127
+fi
+
+echo "✅ Instalation of all dependencies seems OK."
+'''
